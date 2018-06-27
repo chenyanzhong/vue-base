@@ -1,18 +1,15 @@
-# first-vue
+# vue-base-master
 
-> A Vue.js project
+> A Vue Base project
 
 ## Build Setup
 
 ``` bash
-# install dependencies
+# 安装
 npm install
 
-# serve with hot reload at localhost:8080
+# 执行 
 npm run dev
 
-# build for production with minification
-npm run build
-```
+# 加载 localhost:8080
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
