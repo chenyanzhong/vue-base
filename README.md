@@ -1,8 +1,10 @@
 # vue-base-master
 
-> A Vue Base project
+> vue基础
 
-## Build Setup
+#### 1.模版语法
+#### 2.计算属性和侦听器属性
+#### 3.class与styles
 
 ``` bash
 # 安装
@@ -12,4 +14,6 @@ npm install
 npm run dev
 
 # 加载 localhost:8080
+
+
 
