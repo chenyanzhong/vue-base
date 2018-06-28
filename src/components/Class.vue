@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>3.Class 与 Style 绑定</p>
+        <div>Class 与 Style 绑定</div>
         <div>
             <p>动态切换样式</p>
             <p class="class-p-base" v-bind:class="{'class-p':isShowClass}">

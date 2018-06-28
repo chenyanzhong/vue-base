@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>1.模版语法</p>
+        <div>模版语法</div>
 
         <div> 插入文本: {{msg}}</div>
 

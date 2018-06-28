@@ -9,6 +9,7 @@
         <Grammar v-if="currenpage===1" />
         <ComputeWatch v-if="currenpage===2" />
         <Class v-if="currenpage===3" />
+        <Life v-if="currenpage===4" />
     </div>
 </template>
 
@@ -18,13 +19,15 @@ import "./components/styles/index.scss";
 import Grammar from "./components/Grammar.vue";
 import ComputeWatch from "./components/ComputeWatch.vue";
 import Class from "./components/Class.vue";
+import Life from "./components/Life.vue";
 
 export default {
     name: "app",
     components: {
         Grammar,
         ComputeWatch,
-        Class
+        Class,
+        Life
     },
     data() {
         return {
@@ -41,6 +44,10 @@ export default {
                 {
                     page: "3.class与styles",
                     index: 3
+                },
+                {
+                    page: "4.生命周期",
+                    index: 4
                 }
             ]
         };

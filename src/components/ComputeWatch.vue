@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>2.计算属性和侦听器</p>
+        <div>计算属性和侦听器</div>
         <div>
             <p>computed : 计算属性是基于它们的依赖进行缓存的</p>
             <p>reversedMessage : {{reversedMessage}}</p>
