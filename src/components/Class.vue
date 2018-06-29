@@ -30,7 +30,6 @@ import "./styles/class.scss";
 
 export default {
     name: "Class",
-    props: {},
     data() {
         return {
             isShowClass: true,

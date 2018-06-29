@@ -10,6 +10,8 @@
         <ComputeWatch v-if="currenpage===2" />
         <Class v-if="currenpage===3" />
         <Life v-if="currenpage===4" />
+        <Input v-if="currenpage===5" />
+        <ComponentBase v-if="currenpage===6" />
     </div>
 </template>
 
@@ -20,6 +22,8 @@ import Grammar from "./components/Grammar.vue";
 import ComputeWatch from "./components/ComputeWatch.vue";
 import Class from "./components/Class.vue";
 import Life from "./components/Life.vue";
+import Input from "./components/Input.vue";
+import ComponentBase from "./components/ComponentBase.vue";
 
 export default {
     name: "app",
@@ -27,7 +31,9 @@ export default {
         Grammar,
         ComputeWatch,
         Class,
-        Life
+        Life,
+        Input,
+        ComponentBase
     },
     data() {
         return {
@@ -48,6 +54,14 @@ export default {
                 {
                     page: "4.生命周期",
                     index: 4
+                },
+                {
+                    page: "5.表单",
+                    index: 5
+                },
+                {
+                    page: "6.组件基础",
+                    index: 6
                 }
             ]
         };

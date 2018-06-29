@@ -33,7 +33,6 @@
 <script>
 export default {
     name: "ComputeWatch",
-    props: {},
     data() {
         return {
             message: "hello vue",

@@ -51,7 +51,6 @@
 <script>
 export default {
     name: "Grammar",
-    props: {},
     data() {
         return {
             msg: "hello vue",
